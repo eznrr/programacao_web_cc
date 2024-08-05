@@ -1,2 +1,2 @@
 # Programação WEB Turma A
-Repositorio da Disciplina de Programacao Web no curso de Ciencia da Computacao
+Repositório disciplina de Programação WEB no curso de Ciência da Computação 
