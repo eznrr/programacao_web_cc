@@ -10,19 +10,25 @@ body{
 }
 
 .main{
+    padding: 50px;
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     width: 500px;
     height: 500px;
 }
 
 .title{
-    color: #706ac4;
+    margin: 0;
+    color: white;
     text-transform: uppercase;
     font-family: monospace;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .form{
@@ -31,7 +37,7 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .input{
@@ -40,18 +46,35 @@ body{
     text-decoration: none;
     border: none;
     border-radius: 10px;
-    background-color: grey;
+    background-color: white;
     text-transform: uppercase;
     font-family: monospace;
 }
 
 .form-btn{
+    color: white;
     cursor: pointer;
-    background-color: green;
-    width: 80%;
+    background-color: rgb(1, 167, 1);
+    width: 85%;
     padding: 20px;
     border: none;
     border-radius: 10px;
     text-transform: uppercase;
+    font-family: monospace;
+    font-size: 1.3em;
+}
+
+.form-btn:hover{
+    background-color: green;
+}
+
+.rodape{
+    width: 100vw;
+    padding: 20px 0 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    color: white;
     font-family: monospace;
 }
