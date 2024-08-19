@@ -9,10 +9,8 @@ function submit() {
     let cpfElement = document.getElementById("cpf").value;
 
     console.log(nameElement);
-    console.log(idadeElement);
-    console.log(cpfElement);
-    //console.log(emailElement);
-
+    console.log(isIdadeValid(idadeElement));
+    console.log(isCpfValid(cpfElement));
     console.log(isEmailValid(emailElement))
 
     alert("funcao submit");
