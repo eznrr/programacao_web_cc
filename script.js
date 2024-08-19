@@ -13,3 +13,12 @@ function submit() {
 
     alert("funcao submit");
 }
+
+function isEmailValid (emailElement) {
+    return /[\w.-]+@[\w-]+.[a-zA-Z]+$/.test(emailElement)
+}
+
+function isIdadeValid (idade) {
+    return true;
+   
+}
